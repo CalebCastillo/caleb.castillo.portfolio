@@ -188,7 +188,7 @@ GROUP BY First_Name, Patient_ID, Reported_Date
 --Delete rows containing invaild results (comments)-----------------------------------------------
 
 Select *
-from dbo.CRL_Report_Test where Analyte  in ( 1315,977740,978113,977164)
+from dbo.CRL_Report_Test where AnalyteÂ Â in ( 1315,977740,978113,977164)
 
 DELETE
 FROM CRL_Report_Test
